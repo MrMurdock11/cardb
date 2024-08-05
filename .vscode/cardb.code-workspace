@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"name": "✨ cardb",
+			"path": "../"
+		},
+		{
+			"name": "👾 @cardb/cli",
+			"path": "../apps/cli"
+		},
+		{
+			"name": "🚀 @cardb/server",
+			"path": "../apps/server"
+		}
+	],
+	"settings": {
+		"database-client.telemetry.usesOnlineServices": false,
+		"cSpell.words": [
+			"bson",
+			"cardb",
+			"timeseries"
+		],
+		"editor.formatOnSave": true,
+		"[typescript]": {
+			"editor.defaultFormatter": "esbenp.prettier-vscode"
+		},
+	},
+}

@@ -1,0 +1,17 @@
+{
+  "name": "cardb",
+  "version": "0.1.0",
+  "description": "A client-server solution for storing and managing a database of cars of various brands.",
+  "main": "index.js",
+  "scripts": {
+    "start:server": "npm run start -w apps/server"
+  },
+  "workspaces": [
+    "apps/server",
+    "apps/cli",
+    "apps/web"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
